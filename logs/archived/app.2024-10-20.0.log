@@ -1,0 +1,38 @@
+2024-10-20 11:16:56,300 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-10-20 11:16:56,369 INFO com.mycompany.propertymanagement.PropertymanagementApplication [main] Starting PropertymanagementApplication using Java 17.0.12 with PID 14396 (C:\Users\user\Downloads\propertymanagement\propertymanagement\target\classes started by user in C:\Users\user\Downloads\propertymanagement)
+2024-10-20 11:16:56,371 INFO com.mycompany.propertymanagement.PropertymanagementApplication [main] The following 1 profile is active: "dev"
+2024-10-20 11:16:57,642 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 11:16:57,733 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 77 ms. Found 2 JPA repository interfaces.
+2024-10-20 11:16:58,427 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-10-20 11:16:58,440 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-20 11:16:58,444 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2024-10-20 11:16:58,444 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-20 11:16:58,556 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2024-10-20 11:16:58,557 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2124 ms
+2024-10-20 11:16:58,785 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-20 11:16:58,922 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 11:16:58,994 INFO org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-10-20 11:16:59,497 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 11:16:59,545 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-10-20 11:16:59,883 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@370225c7
+2024-10-20 11:16:59,884 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-10-20 11:17:00,203 WARN org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 11:17:00,206 WARN org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-20 11:17:01,552 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 11:17:01,762 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 11:17:02,238 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 11:17:02,717 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-10-20 11:17:02,737 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2024-10-20 11:17:02,747 INFO com.mycompany.propertymanagement.PropertymanagementApplication [main] Started PropertymanagementApplication in 7.127 seconds (process running for 9.278)
+2024-10-20 11:21:26,836 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-20 11:21:26,838 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-10-20 11:21:26,839 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-10-20 11:21:27,666 INFO com.mycompany.propertymanagement.exception.CustomExceptionHandler [http-nio-8080-exec-1] Inside field validation: ownerEmail - Email cannot be empty
+2024-10-20 11:21:27,668 INFO com.mycompany.propertymanagement.exception.CustomExceptionHandler [http-nio-8080-exec-1] Inside field validation: ownerEmail - Owner Email is mandatory
+2024-10-20 12:03:09,880 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m9s578ms384µs).
+2024-10-20 15:09:49,732 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h41m38s166ms767µs400ns).
+2024-10-20 20:25:54,326 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h5m3s30ms539µs300ns).
+2024-10-20 22:16:27,277 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m980ms440µs800ns).
+2024-10-20 22:40:15,555 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 22:40:15,798 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-10-20 22:40:15,956 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
